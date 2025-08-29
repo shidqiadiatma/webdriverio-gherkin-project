@@ -1,0 +1,26 @@
+{
+  "name": "wdio-muat2",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.2",
+    "@wdio/cli": "^9.2.6",
+    "@wdio/cucumber-framework": "^9.18.0",
+    "@wdio/dot-reporter": "^9.19.1",
+    "@wdio/local-runner": "^9.2.6",
+    "@wdio/mocha-framework": "^9.2.5",
+    "@wdio/spec-reporter": "^9.18.0",
+    "@wdio/visual-service": "^6.2.1",
+    "chalk": "^5.6.0",
+    "cli-table3": "^0.6.5",
+    "cucumber-html-reporter": "^6.0.0",
+    "wdio-html-nice-reporter": "^8.1.7",
+    "webdriverio": "^9.19.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.32.0",
+    "jest-image-snapshot": "^6.4.0"
+  }
+}

@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Test reports and generated output
+html-report/
+allure-results/
+
+# Credentials and sensitive data
+/test/data/credentials.json
+
+# Misc
+.DS_Store
+npm-debug.log
+yarn-error.log
+my-reporter.js
+generate-cucumber-report.cjs
+my-table-reporter.js
+package-lock.json
+test/configUrl/UrlForgetPasswordPage.js
+test/configUrl/UrlLoginPage.js
+test/configUrl/UrlRegisterPage.js
